@@ -1,0 +1,17 @@
+1660139124503	geckodriver	INFO	Listening on 127.0.0.1:54556
+1660139127578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sonal\\AppData\\Local\\Temp\\rust_mozprofileTb4PrR"
+1660139127988	Marionette	INFO	Marionette enabled
+1660139127994	Marionette	INFO	Listening on port 54567
+WebDriver BiDi listening on ws://localhost:54557
+Read port: 54567
+1660139128245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sonal\\AppData\\Local\\Temp\\rust_mozprofileTb4PrR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54557/devtools/browser/1bbcfd47-81db-48ec-880a-9d56d2e94209
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yj/l/en_US/6PFy4xkpW4X.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\sonal\AppData\Local\Temp\rust_mozprofileTb4PrR\bookmarkbackups\bookmarks-2022-08-11_11_Q+V9zEJzB9hE3kg6fyFQ4g==.jsonlz4) because it does not exist
+1660245708183	Marionette	INFO	Stopped listening on port 54567
+Exiting due to channel error.
