@@ -21,79 +21,24 @@ MyBrowserKey
 LoginTest
     MyBrowserKey
     Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
+    Input Text       id=txtUsername    Admin
+    Input Text       id=txtPassword    admin123
+    Click Button     id=btnLogin 
+    Click Element    link=Assign Leave  
+    Input Text       id=assignleave_txtEmployee_empName   David Morris
+    Select From List By Value  name=assignleave[txtLeaveType]  3  
+    Input Text    id=assignleave_txtFromDate    2022-08-16  
+    Input Text    id=assignleave_txtToDate    2022-08-18  
+    Input Text   id=assignleave_txtComment   Kindly Approve my request  
+    Click Button    id=assignBtn       
+               
+    # Click Element  id=welcome
+    # Click Element  link=Logout
+    # Close All Browsers
     
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
     
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
     
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
-    
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
-    
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
-    
-LoginTest
-    Open Browser    ${URL}   Chrome
-    Set Browser Implicit Wait     5
-    Input Text    id=txtUsername    Admin
-    Input Text    id=txtPassword    admin123
-    Click Button  id=btnLogin       
-    Click Element  id=welcome
-    Click Element  link=Logout 
-    Close Browser
-    Log            Test completed 
+
     
           
     
